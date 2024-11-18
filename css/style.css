@@ -255,7 +255,8 @@ figure {
 }
 
 .fh5co-video {
-  height: 450px;
+  width: 400px;
+  height: 400px;
   overflow: hidden;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
@@ -744,11 +745,13 @@ figure {
   }
 }
 #fh5co-gallery-list li.one-third {
-  width: 32.3%;
+  width: 100%;
+  /* width: 32.3%; */
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li.one-third {
-    width: 49%;
+    width: 100%;
+    /* width: 49%; */
   }
 }
 @media screen and (max-width: 480px) {
@@ -786,7 +789,7 @@ figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #f14e95;
+  color: #1f344a;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -961,7 +964,9 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: #A7D129;
+  background: #1E3449;
+  /* background: #87CEEB; */
+  /* background: #A7D129; */
   /* background: rgba(241, 78, 149, 0.8); */
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -994,8 +999,9 @@ form label {
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: #333333;
-  /* color: white; */
+  /* color: #1F344A; */
+  /* color: #333333; */
+  color: white;
   /* amounts and words */
 }
 
@@ -1005,8 +1011,9 @@ form label {
 }
 
 .simply-countdown > .simply-section .simply-word {
-  color: #333333;
-  /* color: rgba(255, 255, 255, 0.7); */
+  /* color: #333333; */
+  /* color: #1F344A; */
+  color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
   font-size: 12px;
   /* words */
@@ -1188,7 +1195,8 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #f14e95;
+  color: #1f344a;
+  /* color: #f14e95; */
 }
 .feature-center p,
 .feature-center h3 {
@@ -1341,7 +1349,8 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #f14e95;
+  color: #1f344a;
+  /* color: #f14e95; */
 }
 .feature-left .feature-copy {
   float: left;
@@ -1715,15 +1724,21 @@ form label {
 }
 
 .btn-primary {
-  background: #f14e95;
+  background: #1F344A;
+  /* background: #F0F8FF; */
+  /* background: #A7D129; */
+  /* background: #f14e95; */
   color: #fff;
-  border: 2px solid #f14e95;
+  /* color: #fff; */
+  border: 2px solid #87CEEB;
+  /* border: 2px solid #A7D129; */
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background: #f366a3 !important;
-  border-color: #f366a3 !important;
+  background: #87CEEB !important;
+  color: #1F344A !important;;
+  border-color: #1F344A !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
