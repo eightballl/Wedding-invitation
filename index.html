@@ -23,6 +23,10 @@
     <link rel="stylesheet" href="css/animate.css" />
     <!-- Icomoon Icon Fonts-->
     <link rel="stylesheet" href="css/icomoon.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
     <!-- Bootstrap  -->
     <link rel="stylesheet" href="css/bootstrap.css" />
 
@@ -98,26 +102,27 @@
         background: url('images/bckg4.jpg') no-repeat center center/cover;
         z-index: 9999;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-end; /* Konten diposisikan ke bawah */
+        align-items: center; /* Tetap rata di tengah secara horizontal */
         flex-direction: column;
+        padding-bottom: 50px; /* Jarak konten dari bawah */
       "
     >
       <h3
         style="
           font-size: 36px;
-          margin: 20px 0;
-          color: #1f344a; /* Adjust text color to make it visible */
+          margin: 10px 0;
+          color: #1f344a; /* Putih agar terlihat jelas */
         "
       >
-        Undangan Pernikahan
+        Wedding Invitation
       </h3>
       <h2
         style="
           font-family: 'Sacramento', cursive;
           font-size: 36px;
-          margin: 20px 0;
-          color: #1f344a; /* Adjust text color to make it visible */
+          margin: 10px 0;
+          color: #1f344a;
         "
       >
         Ica & Nesa
@@ -126,21 +131,28 @@
         Kepada Yth: <br />
         Bapak/Ibu/Saudara/i
       </p>
-      <h2
-        id="name"
-        style="
-          margin: 20px 0;
-          color: #1f344a; /* Adjust text color to make it visible */
-        "
-      >
-        Hello!
-      </h2>
+      <h2 id="name" style="margin: 10px 0; color: #1f344a">Hello!</h2>
       <button
         id="openButton"
         class="btn btn-primary"
-        style="padding: 10px 20px; font-size: 16px"
+        style="
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 20px; /* Sesuaikan jarak dalam tombol */
+          font-size: 16px;
+          border: none;
+          border-radius: 8px; /* Sedikit membulat pada sudut */
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          text-align: center;
+          cursor: pointer;
+        "
       >
-        Buka Undangan
+        <i
+          class="fas fa-envelope"
+          style="font-size: 16px; margin-right: 8px"
+        ></i>
+        <span>Buka Undangan</span>
       </button>
     </div>
 
